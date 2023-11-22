@@ -97,11 +97,13 @@ assign [class="qbittorrent|qBittorrent"]                        → $ws6
 assign [class="telegram-desktop"]                               → $ws7
 assign [class="Pragha|pragha|Gimp"]                             → $ws8
 assign [class="Gnome-boxes|gnome-boxes"]		                → $ws9
+assign [class="brave-browser|Brave-browser"]                    → $ws9
 assign [class="vlc"]                                            → $ws10
 
 ################# My keybindings
 bindsym $mod+mod1+a exec --no-startup-id pavucontrol-qt;focus
 bindsym $mod+mod1+b exec --no-startup-id firefox;focus;border none
+bindsym $mod+mod1+Shift+b exec --no-startup-id brave;focus;border none
 bindsym $mod+mod1+c exec --no-startup-id code;focus
 bindsym $mod+mod1+e exec urxvt -e vim;focus
 bindsym $mod+mod1+f exec --no-startup-id catfish;focus;border none
