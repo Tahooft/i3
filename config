@@ -89,15 +89,14 @@ bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws10
 # Assign application to start on a specific workspace - you can find the class with the program xprop
 assign [class="Firefox|firefox"]                                → $ws2
 assign [class="Code|code"]                                      → $ws4
+assign [class="brave-browser|Brave-browser"]                    → $ws5
 assign [class="libreoffice|libreoffice-writer"]                 → $ws5
-assign [class="Sublime Text (UNREGISTERED)"]                    → $ws5
 assign [class="freeciv-gtk3|Freeciv-gtk3|Freeciv"]              → $ws5
 assign [class="Qutebrowser|qutebrowser|chromium"]               → $ws6
 assign [class="qbittorrent|qBittorrent"]                        → $ws6
 assign [class="telegram-desktop"]                               → $ws7
 assign [class="Pragha|pragha|Gimp"]                             → $ws8
 assign [class="Gnome-boxes|gnome-boxes"]		                → $ws9
-assign [class="brave-browser|Brave-browser"]                    → $ws9
 assign [class="vlc"]                                            → $ws10
 
 ################# My keybindings
